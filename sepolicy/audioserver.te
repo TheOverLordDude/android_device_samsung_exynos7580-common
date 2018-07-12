@@ -13,7 +13,8 @@ allow audioserver imei_efs_file:dir search;
 #wakelock_use(audioserver)
 
 # Allow rild to connect to gpsd
-unix_socket_connect(audioserver, property, rild)
+#unix_socket_connect(audioserver, property, rild)
+unix_socket_connect(audioserver, rild, rild)
 
 allow audioserver sysfs_wake_lock:file rw_file_perms;
 
