@@ -7,3 +7,5 @@ Copyright (C) 2016-2017 Apavayan Sinha <info@apavayan.com>
  You may obtain a copy of the License at
 
       http://www.apache.org/licenses/LICENSE-2.0
+
+This version can also only handle 1 sim card nomatter the flag because this fork is intended to ONLY be used with the SM-J700T Device
