@@ -34,6 +34,8 @@ extern "C" {
 #ifndef SIM_COUNT
 #if defined(ANDROID_SIM_COUNT_2)
 #define SIM_COUNT 1
+#else
+#define SIM_COUNT 1
 #endif
 
 #ifndef ANDROID_MULTI_SIM
